@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Glenn Maxwell</title>
+        <link href="style.css" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="container">
+            <h2>TO-DO LIST</h2>
+            <hr class="a">
+            <h3 class="add">Add Item :</h3>
+            <p>
+                <input id="new-task" type="text"><button class="btn">Add</button>
+            </p>
+    
+            <h3 class="to">To-Do :</h3>
+            <ul id="incomplete-tasks">
+                <li><input type="checkbox"><label class="place">School Lesson</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+                <li><input type="checkbox"><label class="place">Codingal Lesson</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+            </ul>
+    
+            <h3>Completed</h3>
+            <ul id="completed-tasks">
+                <li><input type="checkbox" checked><label class="place">Cricket Practice</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+            </ul>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
